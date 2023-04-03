@@ -47,8 +47,26 @@ router.post('/', async (req, res) => {
   }
 });
 
-router.put('/:id', async (req, res) => {
+router.put('/:id', (req, res) => {
   // update a tag's name by its `id` value
+  Tag.update(
+    {
+      // As Tag.js in models, only we can update tag_name - id is primary key and auto increment
+      tag_name: req.body.tag_name,
+    },
+    {
+      where: {
+  // To update the tag by it's id value
+        id: req.params.id,
+      },
+    }
+  )
+  .then ((updatedTag) => {
+    res.json(updatedTag)
+  })
+  .catch ((err) => {
+    res.status(400).json(err);
+  });
 });
 
 router.delete('/:id', async (req, res) => {

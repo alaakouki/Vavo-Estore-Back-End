@@ -22,7 +22,7 @@ To be enable to launch the application through Terminal, you should install Node
 Please check walkthrough video link below to :
 * get full idea how to use Vavo estore Back End application.
 * Check Insomnia testing.
-
+https://drive.google.com/file/d/1fYxK-fCQtPbWtxnr91_oaQsnBwMKarTO/view
 
 
 ## Contacts:
@@ -32,3 +32,4 @@ Or for more information or queries, please don't hesitate to send me email to: a
 
 ## Walkthrough-Video-tutorial:
 Please check the walkthrough video link for more explanation:
+https://drive.google.com/file/d/1fYxK-fCQtPbWtxnr91_oaQsnBwMKarTO/view
